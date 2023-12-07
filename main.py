@@ -18,17 +18,4 @@ with open("data", "w") as TitleUrl:
     TitleUrl.write("Title : "+ str(i.get('title'))+"\n")
     TitleUrl.write("url   : " + str(i.get('url'))+"\n")
 
-#myDico = dict(articles[0])
 
-#print(articles[0]["source"]["id"])
-""" for i in articles["url"] :
-  print(articles[i]["url"])"""
-
-##print(articles[0])
-"""for i , j in enumerate(articles["title"],articles["url"]) :
-  print(f"{i} \n  {j}")
-  """
-"""res = req.json()
-print(res)"""
-
-##print(req)
